@@ -1,14 +1,15 @@
+'use strict'
 let input;
 let total = 0;
 
-while(true){
+while (true) {
     input = prompt('Введите число');
-    
-    if(input === null){
+
+    if (input === null) {
         break;
-    }else if(isNaN(input)){
+    } else if (isNaN(input)) {
         alert('It is not a number')
-        
+        continue;
     }
 
     input = Number(input)
