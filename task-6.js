@@ -8,12 +8,11 @@ while (true) {
     if (input === null) {
         break;
     } else if (isNaN(input)) {
-        alert('It is not a number')
+        alert('Было введено не число, попробуйте еще раз')
         continue;
     }
 
     input = Number(input)
     total += input
 }
-alert(total)
-console.log(total)
+alert(`Общая сумма чисел равна ${total}`)
