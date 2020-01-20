@@ -15,5 +15,5 @@ while (true) {
     input = Number(input)
     total += input
 }
-
+alert(total)
 console.log(total)
